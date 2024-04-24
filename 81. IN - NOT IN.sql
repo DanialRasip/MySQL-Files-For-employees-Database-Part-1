@@ -1,0 +1,14 @@
+SELECT 
+    *
+FROM
+    employees.employees
+WHERE
+    first_name IN ('Cathie' , 'Mark', 'Nathan');
+    
+SELECT 
+    *
+FROM
+    employees.employees
+WHERE
+    first_name NOT IN ('Cathie' , 'Mark', 'Nathan');
+
